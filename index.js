@@ -19,7 +19,7 @@ function increment() {
 function save() {
   let saved = count + " - ";
   saveEl.textContent += saved;
-  count = 0;
+  count = 2;
   countEL.textContent = count;
 }
 
