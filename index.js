@@ -6,7 +6,6 @@ console.log(countEL);
 let count = 0;
 
 let saveEl = document.getElementById("save-el");
-console.log(saved);
 
 function increment() {
   console.log("The button was clicked");
@@ -24,7 +23,7 @@ function save() {
 }
 
 let welcomeEl = document.getElementById("welcome-el");
-let name = "Wei";
+let name = "my friend.";
 let greeting = "Welcome back, ";
 welcomeEl.innerText = greeting + name;
 welcomeEl.innerText = welcomeEl.innerText + " 😊";
